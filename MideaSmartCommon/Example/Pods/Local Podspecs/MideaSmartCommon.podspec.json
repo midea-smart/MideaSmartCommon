@@ -1,0 +1,22 @@
+{
+  "name": "MideaSmartCommon",
+  "version": "0.1.0",
+  "summary": "A short description of MideaSmartCommon.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/denglibing/MideaSmartCommon",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "denglibing": "libing.deng@midea.com"
+  },
+  "source": {
+    "git": "https://github.com/denglibing/MideaSmartCommon.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MideaSmartCommon/Classes/**/*"
+}

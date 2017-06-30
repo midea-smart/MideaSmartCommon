@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MideaSmartCommon_Example' do
+  pod 'MideaSmartCommon', :path => '../'
+
+  target 'MideaSmartCommon_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

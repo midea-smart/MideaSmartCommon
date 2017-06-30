@@ -1,0 +1,16 @@
+PODS:
+  - MideaSmartCommon (0.1.0)
+
+DEPENDENCIES:
+  - MideaSmartCommon (from `../`)
+
+EXTERNAL SOURCES:
+  MideaSmartCommon:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MideaSmartCommon: b29b7d8d9e6236fda21da412a081a7d4e870d637
+
+PODFILE CHECKSUM: 782b55c62426cb642df01ae3fc49ed01c97df94b
+
+COCOAPODS: 1.2.1
