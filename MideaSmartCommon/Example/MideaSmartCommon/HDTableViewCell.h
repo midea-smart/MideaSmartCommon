@@ -1,13 +1,13 @@
 //
 //  HDTableViewCell.h
-//  FDDUITableViewDemoObjC
+//  MSUITableViewDemoObjC
 //
 //  Created by denglibing on 2017/2/14.
 //  Copyright © 2017年 denglibing. All rights reserved.
 //
 
-#import "FDDBaseTableViewCell.h"
+#import <MideaSmartCommon/MSTableViewHeader.h>
 
-@interface HDTableViewCell : FDDBaseTableViewCell
+@interface HDTableViewCell : MSBaseTableViewCell
 
 @end

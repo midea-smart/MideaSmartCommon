@@ -1,6 +1,6 @@
 //
 //  HDTableViewCell.m
-//  FDDUITableViewDemoObjC
+//  MSUITableViewDemoObjC
 //
 //  Created by denglibing on 2017/2/14.
 //  Copyright © 2017年 denglibing. All rights reserved.
@@ -24,16 +24,16 @@
     return self;
 }
 
-- (void)setCellData:(NSString *)fddCellData delegate:(id)delegate{
-    self.fddCellData = fddCellData;
-    self.fddDelegate = delegate;
-    self.textLabel.text = fddCellData;
+- (void)setCellData:(NSString *)MSCellData delegate:(id)delegate{
+    self.MSCellData = MSCellData;
+    self.MSDelegate = delegate;
+    self.textLabel.text = MSCellData;
 }
 
 - (void)layoutSubviews{
     [super layoutSubviews];
     
-    CGFloat height = [HDTableViewCell cellHeightWithCellData:self.fddCellData];
+    CGFloat height = [HDTableViewCell cellHeightWithCellData:self.MSCellData];
     self.textLabel.frame =  CGRectMake(10, 10, self.frame.size.width - 20, height - 20);
 }
 

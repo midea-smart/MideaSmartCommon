@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   
-  s.subspec 'MSTableViewCommon' do |MSTVC|
-      MSTVC.source_files = 'MideaSmartCommon/Classes/FDDBaseRepo/*.{h,m}'
+  s.subspec 'MSTableViewCommon' do |mstvc|
+      mstvc.source_files = 'MideaSmartCommon/MideaSmartUI/MSTableViewCommon/*.{h,m}'
   end
       
   

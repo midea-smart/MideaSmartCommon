@@ -9,13 +9,13 @@
 #import "MSViewController.h"
 #import "MSViewController2.h"
 
-#import <MideaSmartCommon/FDDTableViewHeader.h>
+#import <MideaSmartCommon/MSTableViewHeader.h>
 
 #import "HDTableViewCell.h"
 
 @interface MSViewController ()
     
-@property (nonatomic, strong) FDDTableViewConverter *tableViewConverter;
+@property (nonatomic, strong) MSTableViewConverter *tableViewConverter;
 
 @property (nonatomic, strong) NSMutableArray *dataArr;
 
@@ -45,14 +45,14 @@
                                @"– The Swift Team"];
     for (int i=0; i<30; i++) {
         NSInteger randomIndex = arc4random() % 5;
-        FDDBaseCellModel *cellModel = [FDDBaseCellModel modelFromCellClass:HDTableViewCell.class cellHeight:[HDTableViewCell cellHeightWithCellData:randomSources[randomIndex]] cellData:randomSources[randomIndex]];
+        MSBaseCellModel *cellModel = [MSBaseCellModel modelFromCellClass:HDTableViewCell.class cellHeight:[HDTableViewCell cellHeightWithCellData:randomSources[randomIndex]] cellData:randomSources[randomIndex]];
         [self.dataArr addObject:cellModel];
     }
 }
     
     
 - (void)disposeTableViewConverter{
-    _tableViewConverter = [[FDDTableViewConverter alloc] initWithTableViewCarrier:self daraSources:self.dataArr];
+    _tableViewConverter = [[MSTableViewConverter alloc] initWithTableViewCarrier:self daraSources:self.dataArr];
     
     UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     tableView.delegate = _tableViewConverter;
@@ -74,8 +74,8 @@
     [_tableViewConverter registerTableViewMethod:@selector(tableView:cellForRowAtIndexPath:) handleParams:^id(NSArray *params) {
         UITableView *tableView = params[0];
         NSIndexPath *indexPath = params[1];
-        FDDBaseCellModel *cellModel = weakSelf.dataArr[indexPath.row];
-        FDDBaseTableViewCell *cell = [tableView cellForIndexPath:indexPath cellClass:cellModel.cellClass];
+        MSBaseCellModel *cellModel = weakSelf.dataArr[indexPath.row];
+        MSBaseTableViewCell *cell = [tableView cellForIndexPath:indexPath cellClass:cellModel.cellClass];
         [cell setCellData:cellModel.cellData delegate:weakSelf];
         [cell setSeperatorLine:indexPath numberOfRowsInSection:weakSelf.dataArr.count];
         return cell;
