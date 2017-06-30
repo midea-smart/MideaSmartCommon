@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MideaSmartCommon'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '美的智慧的一些公用组建'
   s.description      = '美的智慧的一些公用组建，提高项目开发效率及项目质量'
   s.homepage         = 'https://github.com/midea-smart'
