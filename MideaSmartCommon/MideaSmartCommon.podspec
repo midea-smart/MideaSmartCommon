@@ -18,7 +18,11 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/midea-smart/MideaSmartCommon.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MideaSmartCommon/Classes/**/*'
+  
+  s.subspec 'MSTableViewCommon' do |MSTVC|
+      MSTVC.source_files = 'MideaSmartCommon/Classes/FDDBaseRepo/*.{h,m}'
+  end
+      
   
   # s.resource_bundles = {
   #   'MideaSmartCommon' => ['MideaSmartCommon/Assets/*.png']
