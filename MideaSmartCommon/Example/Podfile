@@ -1,8 +1,8 @@
 use_frameworks!
 
 target 'MideaSmartCommon_Example' do
-  pod 'MideaSmartCommon', :path => '../'
-#pod 'MideaSmartCommon'
+#  pod 'MideaSmartCommon', :path => '../'
+pod "MideaSmartCommon"
 
   target 'MideaSmartCommon_Tests' do
     inherit! :search_paths

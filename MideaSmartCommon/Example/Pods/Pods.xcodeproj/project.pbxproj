@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		052654ACF9FA1E3FD1AFAFC62453E6F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		12B19E1E8B1B6059725FD0C7E0A71FFC /* MideaSmartCommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BADDA250B0AA56961C19828328C495 /* MideaSmartCommon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13323BC6C85E5D72ED958494074042C0 /* MSTableViewConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A22F9305E16EB63BACE7ADAEFBCA07 /* MSTableViewConverter.m */; };
 		371144D1D3DA4620BD284B619581AB0C /* Pods-MideaSmartCommon_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 780709FDDF9847E04CD9A7D63023AAD7 /* Pods-MideaSmartCommon_Example-dummy.m */; };
+		445885BED3E56157603251369FB99E79 /* MSTableViewConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B7514BCDF99A9E6A1FF50C8C38B826B /* MSTableViewConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4BD8C8470AF3325C80E65C8AB9CE0449 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		769E0D9B06B37E9F0164BB2977404A17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		784115B8A15ABD0D332848B58B7C9F6E /* MSBaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B86D2EED23BBF9573B79D102AD7BFDDA /* MSBaseTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		787D78E176ABE50938D8F627962ECA40 /* Pods-MideaSmartCommon_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44E10EC962F0646AC04D19F786A88319 /* Pods-MideaSmartCommon_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DF4894A93A1ECED470511E9B7254034 /* Pods-MideaSmartCommon_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B8B421B58460698B8045167BF8F05 /* Pods-MideaSmartCommon_Tests-dummy.m */; };
-		CE2522FA42809F6027999EA343DA46E6 /* MideaSmartCommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B9E80998E2C57894DE58EA90E047CE3 /* MideaSmartCommon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F4BC306D6FE460898E7471762EF49B3 /* MSBaseCellModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A856122279C77B544D7C408BC7FC20E /* MSBaseCellModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9323979B8D608E45B51D26F054D0FE4D /* MideaSmartCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1415912926D109C2E53E84D35168BC /* MideaSmartCommon-dummy.m */; };
+		BB8F5EFC5FCF87DC4A875B2CC9171822 /* MSTableViewHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A9FB63CC30BF17380E47C75B510B3C22 /* MSTableViewHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF1CE840D012938E9E781FA0B4E990D3 /* MSBaseCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA65D5C9E97C4B19882CF3A8392C709D /* MSBaseCellModel.m */; };
 		CFCC5D0598D1325330B6F91E9AC71533 /* Pods-MideaSmartCommon_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9745B21097E44A12DAD3DA9905C371CB /* Pods-MideaSmartCommon_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4F902B64F2DC41EE593610720EEA325 /* MideaSmartCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8227CA759D3A796ED8E66C402F013610 /* MideaSmartCommon-dummy.m */; };
-		D9DA24F71F063FE000E21B5F /* MSBaseCellModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D9DA24F01F063FE000E21B5F /* MSBaseCellModel.h */; };
-		D9DA24F81F063FE000E21B5F /* MSBaseCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA24F11F063FE000E21B5F /* MSBaseCellModel.m */; };
-		D9DA24F91F063FE000E21B5F /* MSBaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D9DA24F21F063FE000E21B5F /* MSBaseTableViewCell.h */; };
-		D9DA24FA1F063FE000E21B5F /* MSBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA24F31F063FE000E21B5F /* MSBaseTableViewCell.m */; };
-		D9DA24FB1F063FE000E21B5F /* MSTableViewConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = D9DA24F41F063FE000E21B5F /* MSTableViewConverter.h */; };
-		D9DA24FC1F063FE000E21B5F /* MSTableViewConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA24F51F063FE000E21B5F /* MSTableViewConverter.m */; };
-		D9DA24FD1F063FE000E21B5F /* MSTableViewHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = D9DA24F61F063FE000E21B5F /* MSTableViewHeader.h */; };
+		E5773CAEF136C910D2FD756FE9346649 /* MSBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC49B3E3EFC2DB06227F625915FD3488 /* MSBaseTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,43 +37,43 @@
 
 /* Begin PBXFileReference section */
 		0C3B8B421B58460698B8045167BF8F05 /* Pods-MideaSmartCommon_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MideaSmartCommon_Tests-dummy.m"; sourceTree = "<group>"; };
-		0FB328FD7ECB25EB08D9AEC1986535F5 /* MideaSmartCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MideaSmartCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		14DB792C43FB03EF9B3B0F03403D2788 /* MideaSmartCommon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MideaSmartCommon-prefix.pch"; sourceTree = "<group>"; };
-		1673B42F83EDF800E34523CBFE7B1660 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B9E80998E2C57894DE58EA90E047CE3 /* MideaSmartCommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MideaSmartCommon-umbrella.h"; sourceTree = "<group>"; };
+		0FB328FD7ECB25EB08D9AEC1986535F5 /* MideaSmartCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MideaSmartCommon.framework; path = MideaSmartCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D64A8BBCAEE436B01E2E7FB4170B70 /* MideaSmartCommon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MideaSmartCommon.xcconfig; sourceTree = "<group>"; };
 		2B01D663636CC8A35FCB0CDB21F9F47B /* Pods-MideaSmartCommon_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MideaSmartCommon_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3137627A95BF5D66EF5A1A88A35D280B /* MideaSmartCommon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MideaSmartCommon.xcconfig; sourceTree = "<group>"; };
 		335CDDA6AA5C5695D4598E90B1882CDF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A22F9305E16EB63BACE7ADAEFBCA07 /* MSTableViewConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSTableViewConverter.m; path = MideaSmartCommon/MideaSmartUI/MSTableViewCommon/MSTableViewConverter.m; sourceTree = "<group>"; };
 		35484BFD10E84F5D9ADB8057FF884EA7 /* Pods-MideaSmartCommon_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MideaSmartCommon_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		42E2283544B699D6D33C510850D2BD5C /* Pods-MideaSmartCommon_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MideaSmartCommon_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4420A1E0EEF3E8110E92B5A257362BC9 /* Pods-MideaSmartCommon_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MideaSmartCommon_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		44E10EC962F0646AC04D19F786A88319 /* Pods-MideaSmartCommon_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MideaSmartCommon_Example-umbrella.h"; sourceTree = "<group>"; };
-		487BFD88BA1F10118A5210685B9C716F /* Pods-MideaSmartCommon_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MideaSmartCommon_Example.modulemap"; sourceTree = "<group>"; };
+		487BFD88BA1F10118A5210685B9C716F /* Pods-MideaSmartCommon_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MideaSmartCommon_Example.modulemap"; sourceTree = "<group>"; };
+		4A856122279C77B544D7C408BC7FC20E /* MSBaseCellModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSBaseCellModel.h; path = MideaSmartCommon/MideaSmartUI/MSTableViewCommon/MSBaseCellModel.h; sourceTree = "<group>"; };
 		4BE519C079740B03235CF073FE9D05E9 /* Pods-MideaSmartCommon_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MideaSmartCommon_Example-frameworks.sh"; sourceTree = "<group>"; };
 		519EECBBA30681A653D9B75842A1E984 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		526D5DA4D783BCA5BCB1680DDBEB2920 /* Pods-MideaSmartCommon_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MideaSmartCommon_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		59CB1976ECFA4E6CAAFA0AB790A0417A /* Pods_MideaSmartCommon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MideaSmartCommon_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59CB1976ECFA4E6CAAFA0AB790A0417A /* Pods_MideaSmartCommon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MideaSmartCommon_Example.framework; path = "Pods-MideaSmartCommon_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6E4893B278EC290790F4F64C3EF657B1 /* MideaSmartCommon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MideaSmartCommon.modulemap; sourceTree = "<group>"; };
+		68A0A97AB6FEEFB1F52064F2F052CE66 /* MideaSmartCommon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MideaSmartCommon-prefix.pch"; sourceTree = "<group>"; };
+		73BADDA250B0AA56961C19828328C495 /* MideaSmartCommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MideaSmartCommon-umbrella.h"; sourceTree = "<group>"; };
+		7457EABE25CC1A22DAFBD77CD3439047 /* MideaSmartCommon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MideaSmartCommon.modulemap; sourceTree = "<group>"; };
 		780709FDDF9847E04CD9A7D63023AAD7 /* Pods-MideaSmartCommon_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MideaSmartCommon_Example-dummy.m"; sourceTree = "<group>"; };
-		8227CA759D3A796ED8E66C402F013610 /* MideaSmartCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MideaSmartCommon-dummy.m"; sourceTree = "<group>"; };
 		86AD23FE28D9DE12819FDE76B82DD28D /* Pods-MideaSmartCommon_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MideaSmartCommon_Example-resources.sh"; sourceTree = "<group>"; };
 		873A965DD3CCBDEFCEA29CF8A646A39E /* Pods-MideaSmartCommon_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MideaSmartCommon_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		8FA1677003C1A23158365054E8BAA033 /* Pods_MideaSmartCommon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MideaSmartCommon_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8FA1677003C1A23158365054E8BAA033 /* Pods_MideaSmartCommon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MideaSmartCommon_Tests.framework; path = "Pods-MideaSmartCommon_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95945AB40345CCC66F443930C0491367 /* Pods-MideaSmartCommon_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MideaSmartCommon_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9745B21097E44A12DAD3DA9905C371CB /* Pods-MideaSmartCommon_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MideaSmartCommon_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B1891DB31E3EC8B972ED675B13F82159 /* Pods-MideaSmartCommon_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MideaSmartCommon_Tests.modulemap"; sourceTree = "<group>"; };
-		D9DA24F01F063FE000E21B5F /* MSBaseCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSBaseCellModel.h; sourceTree = "<group>"; };
-		D9DA24F11F063FE000E21B5F /* MSBaseCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSBaseCellModel.m; sourceTree = "<group>"; };
-		D9DA24F21F063FE000E21B5F /* MSBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSBaseTableViewCell.h; sourceTree = "<group>"; };
-		D9DA24F31F063FE000E21B5F /* MSBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSBaseTableViewCell.m; sourceTree = "<group>"; };
-		D9DA24F41F063FE000E21B5F /* MSTableViewConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTableViewConverter.h; sourceTree = "<group>"; };
-		D9DA24F51F063FE000E21B5F /* MSTableViewConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTableViewConverter.m; sourceTree = "<group>"; };
-		D9DA24F61F063FE000E21B5F /* MSTableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTableViewHeader.h; sourceTree = "<group>"; };
+		9B7514BCDF99A9E6A1FF50C8C38B826B /* MSTableViewConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSTableViewConverter.h; path = MideaSmartCommon/MideaSmartUI/MSTableViewCommon/MSTableViewConverter.h; sourceTree = "<group>"; };
+		A9FB63CC30BF17380E47C75B510B3C22 /* MSTableViewHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSTableViewHeader.h; path = MideaSmartCommon/MideaSmartUI/MSTableViewCommon/MSTableViewHeader.h; sourceTree = "<group>"; };
+		B1891DB31E3EC8B972ED675B13F82159 /* Pods-MideaSmartCommon_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MideaSmartCommon_Tests.modulemap"; sourceTree = "<group>"; };
+		B86D2EED23BBF9573B79D102AD7BFDDA /* MSBaseTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSBaseTableViewCell.h; path = MideaSmartCommon/MideaSmartUI/MSTableViewCommon/MSBaseTableViewCell.h; sourceTree = "<group>"; };
+		CC49B3E3EFC2DB06227F625915FD3488 /* MSBaseTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSBaseTableViewCell.m; path = MideaSmartCommon/MideaSmartUI/MSTableViewCommon/MSBaseTableViewCell.m; sourceTree = "<group>"; };
+		D74301336E7196169BC064DE8098829A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD1BF6C162877033565363C21FA56DAF /* Pods-MideaSmartCommon_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MideaSmartCommon_Tests-resources.sh"; sourceTree = "<group>"; };
 		DED00FB4522E3FD3B97FBB52921FFD09 /* Pods-MideaSmartCommon_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MideaSmartCommon_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E6B2EE3BB5FAE1FC02957267A81C17F9 /* Pods-MideaSmartCommon_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MideaSmartCommon_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB1415912926D109C2E53E84D35168BC /* MideaSmartCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MideaSmartCommon-dummy.m"; sourceTree = "<group>"; };
+		FA65D5C9E97C4B19882CF3A8392C709D /* MSBaseCellModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSBaseCellModel.m; path = MideaSmartCommon/MideaSmartUI/MSTableViewCommon/MSBaseCellModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,42 +114,48 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		20C372371905EEC493D1472CEE6A7CD8 /* MSTableViewCommon */ = {
+		0E244572677237B6490F03B32E8D0A73 /* MSTableViewCommon */ = {
 			isa = PBXGroup;
 			children = (
-				2F84868AF1CF2E7816C51782B1C32850 /* MideaSmartCommon */,
+				4A856122279C77B544D7C408BC7FC20E /* MSBaseCellModel.h */,
+				FA65D5C9E97C4B19882CF3A8392C709D /* MSBaseCellModel.m */,
+				B86D2EED23BBF9573B79D102AD7BFDDA /* MSBaseTableViewCell.h */,
+				CC49B3E3EFC2DB06227F625915FD3488 /* MSBaseTableViewCell.m */,
+				9B7514BCDF99A9E6A1FF50C8C38B826B /* MSTableViewConverter.h */,
+				33A22F9305E16EB63BACE7ADAEFBCA07 /* MSTableViewConverter.m */,
+				A9FB63CC30BF17380E47C75B510B3C22 /* MSTableViewHeader.h */,
 			);
 			name = MSTableViewCommon;
 			sourceTree = "<group>";
 		};
-		2F84868AF1CF2E7816C51782B1C32850 /* MideaSmartCommon */ = {
+		3E39C5ED9950D2E81E8807C29F498426 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D9DA24EE1F063FE000E21B5F /* MideaSmartUI */,
+				F4EFD6D191AE9F1A1D27D685BFD34304 /* MideaSmartCommon */,
 			);
-			path = MideaSmartCommon;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		3289B140C1CFC71498CB57CA18CEABB6 /* Support Files */ = {
+		6BECBD0A11A24FB1BF2D0D008E935DA8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1673B42F83EDF800E34523CBFE7B1660 /* Info.plist */,
-				6E4893B278EC290790F4F64C3EF657B1 /* MideaSmartCommon.modulemap */,
-				3137627A95BF5D66EF5A1A88A35D280B /* MideaSmartCommon.xcconfig */,
-				8227CA759D3A796ED8E66C402F013610 /* MideaSmartCommon-dummy.m */,
-				14DB792C43FB03EF9B3B0F03403D2788 /* MideaSmartCommon-prefix.pch */,
-				1B9E80998E2C57894DE58EA90E047CE3 /* MideaSmartCommon-umbrella.h */,
+				D74301336E7196169BC064DE8098829A /* Info.plist */,
+				7457EABE25CC1A22DAFBD77CD3439047 /* MideaSmartCommon.modulemap */,
+				23D64A8BBCAEE436B01E2E7FB4170B70 /* MideaSmartCommon.xcconfig */,
+				EB1415912926D109C2E53E84D35168BC /* MideaSmartCommon-dummy.m */,
+				68A0A97AB6FEEFB1F52064F2F052CE66 /* MideaSmartCommon-prefix.pch */,
+				73BADDA250B0AA56961C19828328C495 /* MideaSmartCommon-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MideaSmartCommon";
+			path = "../Target Support Files/MideaSmartCommon";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				D06CE5688559F077BCD5269BDB8FDB2E /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3E39C5ED9950D2E81E8807C29F498426 /* Pods */,
 				0D5E042F8B40AA01240B7C3CFA19A18A /* Products */,
 				97FE59F818E0E5BE0423A6F440FE5AD5 /* Targets Support Files */,
 			);
@@ -190,52 +196,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CFC7590DF69D3AEAA057B9DA8C8526E4 /* MideaSmartCommon */ = {
-			isa = PBXGroup;
-			children = (
-				20C372371905EEC493D1472CEE6A7CD8 /* MSTableViewCommon */,
-				3289B140C1CFC71498CB57CA18CEABB6 /* Support Files */,
-			);
-			name = MideaSmartCommon;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		D06CE5688559F077BCD5269BDB8FDB2E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CFC7590DF69D3AEAA057B9DA8C8526E4 /* MideaSmartCommon */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		D9DA24EE1F063FE000E21B5F /* MideaSmartUI */ = {
-			isa = PBXGroup;
-			children = (
-				D9DA24EF1F063FE000E21B5F /* MSTableViewCommon */,
-			);
-			path = MideaSmartUI;
-			sourceTree = "<group>";
-		};
-		D9DA24EF1F063FE000E21B5F /* MSTableViewCommon */ = {
-			isa = PBXGroup;
-			children = (
-				D9DA24F01F063FE000E21B5F /* MSBaseCellModel.h */,
-				D9DA24F11F063FE000E21B5F /* MSBaseCellModel.m */,
-				D9DA24F21F063FE000E21B5F /* MSBaseTableViewCell.h */,
-				D9DA24F31F063FE000E21B5F /* MSBaseTableViewCell.m */,
-				D9DA24F41F063FE000E21B5F /* MSTableViewConverter.h */,
-				D9DA24F51F063FE000E21B5F /* MSTableViewConverter.m */,
-				D9DA24F61F063FE000E21B5F /* MSTableViewHeader.h */,
-			);
-			path = MSTableViewCommon;
 			sourceTree = "<group>";
 		};
 		DBBD486C3849010D8A9CBDA3B8397485 /* Pods-MideaSmartCommon_Example */ = {
@@ -256,21 +222,19 @@
 			path = "Target Support Files/Pods-MideaSmartCommon_Example";
 			sourceTree = "<group>";
 		};
+		F4EFD6D191AE9F1A1D27D685BFD34304 /* MideaSmartCommon */ = {
+			isa = PBXGroup;
+			children = (
+				0E244572677237B6490F03B32E8D0A73 /* MSTableViewCommon */,
+				6BECBD0A11A24FB1BF2D0D008E935DA8 /* Support Files */,
+			);
+			name = MideaSmartCommon;
+			path = MideaSmartCommon;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2A12FE534ADA09E75E88C61EAF543A6F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D9DA24F91F063FE000E21B5F /* MSBaseTableViewCell.h in Headers */,
-				CE2522FA42809F6027999EA343DA46E6 /* MideaSmartCommon-umbrella.h in Headers */,
-				D9DA24FD1F063FE000E21B5F /* MSTableViewHeader.h in Headers */,
-				D9DA24F71F063FE000E21B5F /* MSBaseCellModel.h in Headers */,
-				D9DA24FB1F063FE000E21B5F /* MSTableViewConverter.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		34B32434ED488FAE2633A238D0026164 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,6 +248,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				787D78E176ABE50938D8F627962ECA40 /* Pods-MideaSmartCommon_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D326ECD5655485CC977CF7E68E783A46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B19E1E8B1B6059725FD0C7E0A71FFC /* MideaSmartCommon-umbrella.h in Headers */,
+				8F4BC306D6FE460898E7471762EF49B3 /* MSBaseCellModel.h in Headers */,
+				784115B8A15ABD0D332848B58B7C9F6E /* MSBaseTableViewCell.h in Headers */,
+				445885BED3E56157603251369FB99E79 /* MSTableViewConverter.h in Headers */,
+				BB8F5EFC5FCF87DC4A875B2CC9171822 /* MSTableViewHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,9 +287,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48A5102EEBD642F3819E9330E3F7174A /* Build configuration list for PBXNativeTarget "MideaSmartCommon" */;
 			buildPhases = (
-				16182C8CFCC94858B7F825AFCAB2213C /* Sources */,
+				CCE066E3F5975F9A0A70AC1296D44555 /* Sources */,
 				7E88AE24E2A21FF2C7A767B78FEFFB1B /* Frameworks */,
-				2A12FE534ADA09E75E88C61EAF543A6F /* Headers */,
+				D326ECD5655485CC977CF7E68E783A46 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -371,22 +347,22 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		16182C8CFCC94858B7F825AFCAB2213C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D9DA24FC1F063FE000E21B5F /* MSTableViewConverter.m in Sources */,
-				D9DA24FA1F063FE000E21B5F /* MSBaseTableViewCell.m in Sources */,
-				D9DA24F81F063FE000E21B5F /* MSBaseCellModel.m in Sources */,
-				D4F902B64F2DC41EE593610720EEA325 /* MideaSmartCommon-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9CF5EFBA80B638038CA0FEFC8CF76D08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				371144D1D3DA4620BD284B619581AB0C /* Pods-MideaSmartCommon_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE066E3F5975F9A0A70AC1296D44555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9323979B8D608E45B51D26F054D0FE4D /* MideaSmartCommon-dummy.m in Sources */,
+				BF1CE840D012938E9E781FA0B4E990D3 /* MSBaseCellModel.m in Sources */,
+				E5773CAEF136C910D2FD756FE9346649 /* MSBaseTableViewCell.m in Sources */,
+				13323BC6C85E5D72ED958494074042C0 /* MSTableViewConverter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,7 +424,7 @@
 		};
 		0E97BCB8C5F025DEADBFA2703174088F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3137627A95BF5D66EF5A1A88A35D280B /* MideaSmartCommon.xcconfig */;
+			baseConfigurationReference = 23D64A8BBCAEE436B01E2E7FB4170B70 /* MideaSmartCommon.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -608,7 +584,7 @@
 		};
 		AB78DE329027A5AD428845D67FC4ABAB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3137627A95BF5D66EF5A1A88A35D280B /* MideaSmartCommon.xcconfig */;
+			baseConfigurationReference = 23D64A8BBCAEE436B01E2E7FB4170B70 /* MideaSmartCommon.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

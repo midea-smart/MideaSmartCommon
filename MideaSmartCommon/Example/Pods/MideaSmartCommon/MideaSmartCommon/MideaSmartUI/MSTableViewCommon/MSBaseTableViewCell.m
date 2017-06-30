@@ -1,14 +1,14 @@
 //
-//  FDDBaseTableViewCell.m
-//  FDDUITableViewDemoObjC
+//  MSBaseTableViewCell.m
+//  MSUITableViewDemoObjC
 //
 //  Created by denglibing on 2017/2/14.
 //  Copyright © 2017年 denglibing. All rights reserved.
 //
 
-#import "FDDBaseTableViewCell.h"
+#import "MSBaseTableViewCell.h"
 
-@implementation FDDBaseTableViewCell{
+@implementation MSBaseTableViewCell{
     CGFloat sizeOnePx;
 }
 
@@ -37,7 +37,7 @@
     if (self) {
         [self internalInit];
         
-        self.cellType = FDDBaseTableViewCellNone;
+        self.cellType = MSBaseTableViewCellNone;
         _separateLineOffset = 0;
         sizeOnePx = 1.0 / [UIScreen mainScreen].scale;
     }
@@ -73,25 +73,25 @@
 }
 
 
--(void)setCellType:(FDDBaseTableViewCellType)type{
+-(void)setCellType:(MSBaseTableViewCellType)type{
     _cellType = type;
     
     switch (_cellType) {
             
-        case FDDBaseTableViewCellNone:
+        case MSBaseTableViewCellNone:
             _topLineView.hidden = YES;
             _bottomLineView.hidden = YES;
             break;
             
-        case FDDBaseTableViewCellAtFirst:
-        case FDDBaseTableViewCellNormal:
-        case FDDBaseTableViewCellAtMiddle:
+        case MSBaseTableViewCellAtFirst:
+        case MSBaseTableViewCellNormal:
+        case MSBaseTableViewCellAtMiddle:
             _topLineView.hidden = NO;
             _bottomLineView.hidden = YES;
             break;
             
-        case FDDBaseTableViewCellAtLast:
-        case FDDBaseTableViewCellSingle:
+        case MSBaseTableViewCellAtLast:
+        case MSBaseTableViewCellSingle:
             _topLineView.hidden = NO;
             _bottomLineView.hidden = NO;
             break;
@@ -109,28 +109,28 @@
     _bottomLineView.backgroundColor = _lineColor;
 }
 
-- (void)setCellData:(id)fddCellData{
-    [self setCellData:fddCellData delegate:nil];
+- (void)setCellData:(id)MSCellData{
+    [self setCellData:MSCellData delegate:nil];
 }
 
-- (void)setCellData:(id)fddCellData delegate:(id)delegate{
-    _fddCellData = fddCellData;
-    _fddDelegate = delegate;
+- (void)setCellData:(id)MSCellData delegate:(id)delegate{
+    _MSCellData = MSCellData;
+    _MSDelegate = delegate;
 }
 
 - (void)setSeperatorLine:(NSIndexPath *)indexPath numberOfRowsInSection:(NSInteger)numberOfRowsInSection{
     if (numberOfRowsInSection == 1) {
-        self.cellType = FDDBaseTableViewCellSingle;
+        self.cellType = MSBaseTableViewCellSingle;
     }
     else {
         if (indexPath.row == 0) {
-            self.cellType = FDDBaseTableViewCellAtFirst;
+            self.cellType = MSBaseTableViewCellAtFirst;
         }
         else if (indexPath.row == numberOfRowsInSection - 1) {
-            self.cellType = FDDBaseTableViewCellAtLast;
+            self.cellType = MSBaseTableViewCellAtLast;
         }
         else {
-            self.cellType = FDDBaseTableViewCellAtMiddle;
+            self.cellType = MSBaseTableViewCellAtMiddle;
         }
     }
 }
@@ -139,28 +139,28 @@
     [super layoutSubviews];
     
     switch (_cellType) {
-        case FDDBaseTableViewCellNone:
+        case MSBaseTableViewCellNone:
             _topLineView.frame = CGRectMake(_separateLineOffset, 0.0, self.frame.size.width - _separateLineOffset, sizeOnePx);
             _bottomLineView.frame = CGRectMake(_separateLineOffset, self.bounds.size.height - sizeOnePx, self.frame.size.width - _separateLineOffset, sizeOnePx);
             break;
             
-        case FDDBaseTableViewCellAtFirst:
+        case MSBaseTableViewCellAtFirst:
             _topLineView.frame = CGRectMake(0.0, 0.0, self.frame.size.width, sizeOnePx);
             _bottomLineView.frame = CGRectMake(_separateLineOffset, self.bounds.size.height - sizeOnePx, self.frame.size.width - _separateLineOffset, sizeOnePx);
             break;
             
-        case FDDBaseTableViewCellAtMiddle:
-        case FDDBaseTableViewCellNormal:
+        case MSBaseTableViewCellAtMiddle:
+        case MSBaseTableViewCellNormal:
             _topLineView.frame = CGRectMake(_separateLineOffset, 0.0, self.frame.size.width - _separateLineOffset, sizeOnePx);
             _bottomLineView.frame = CGRectMake(_separateLineOffset, self.bounds.size.height - sizeOnePx, self.frame.size.width - _separateLineOffset, sizeOnePx);
             break;
         
-        case FDDBaseTableViewCellAtLast:
+        case MSBaseTableViewCellAtLast:
             _topLineView.frame = CGRectMake(_separateLineOffset, 0.0, self.frame.size.width - _separateLineOffset, sizeOnePx);
             _bottomLineView.frame = CGRectMake(0.0, self.bounds.size.height - sizeOnePx, self.frame.size.width, sizeOnePx);
             break;
             
-        case FDDBaseTableViewCellSingle:
+        case MSBaseTableViewCellSingle:
             _topLineView.frame = CGRectMake(0.0, 0.0, self.frame.size.width, sizeOnePx);
             _bottomLineView.frame = CGRectMake(0.0, self.bounds.size.height - sizeOnePx, self.frame.size.width, sizeOnePx);
             break;

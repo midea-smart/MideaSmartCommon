@@ -1,6 +1,6 @@
 {
   "name": "MideaSmartCommon",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "美的智慧的一些公用组建",
   "description": "美的智慧的一些公用组建，提高项目开发效率及项目质量",
   "homepage": "https://github.com/midea-smart",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/midea-smart/MideaSmartCommon.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -22,7 +22,7 @@
   "subspecs": [
     {
       "name": "MSTableViewCommon",
-      "source_files": "MideaSmartCommon/Classes/FDDBaseRepo/*"
+      "source_files": "MideaSmartCommon/MideaSmartUI/MSTableViewCommon/*.{h,m}"
     }
   ]
 }

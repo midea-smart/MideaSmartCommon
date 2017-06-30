@@ -1,18 +1,14 @@
 PODS:
-  - MideaSmartCommon (0.1.0):
-    - MideaSmartCommon/MSTableViewCommon (= 0.1.0)
-  - MideaSmartCommon/MSTableViewCommon (0.1.0)
+  - MideaSmartCommon (0.1.1):
+    - MideaSmartCommon/MSTableViewCommon (= 0.1.1)
+  - MideaSmartCommon/MSTableViewCommon (0.1.1)
 
 DEPENDENCIES:
-  - MideaSmartCommon (from `../`)
-
-EXTERNAL SOURCES:
-  MideaSmartCommon:
-    :path: ../
+  - MideaSmartCommon
 
 SPEC CHECKSUMS:
-  MideaSmartCommon: 74b4befcd1562222c4e4fe13f417012a2c06b429
+  MideaSmartCommon: bc95545cb8103f440b4eb7eebadcf70aa0b9dd89
 
-PODFILE CHECKSUM: f10ec6d5e02aab0531b8b0ca9aa3bc983d8d40ff
+PODFILE CHECKSUM: 1acb77094acedd9e31de452b8310f0df14b10085
 
 COCOAPODS: 1.2.1

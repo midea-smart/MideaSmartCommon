@@ -1,36 +1,36 @@
 //
-//  FDDTableViewConverter.m
-//  FDDUITableViewDemoObjC
+//  MSTableViewConverter.m
+//  MSUITableViewDemoObjC
 //
 //  Created by denglibing on 2017/2/14.
 //  Copyright © 2017年 denglibing. All rights reserved.
 //
 
-#import "FDDTableViewConverter.h"
+#import "MSTableViewConverter.h"
 
-#import "FDDBaseTableViewCell.h"
+#import "MSBaseTableViewCell.h"
 
-#import "FDDBaseCellModel.h"
+#import "MSBaseCellModel.h"
 
-@implementation UITableView (FDDIdentifierCell)
+@implementation UITableView (MSIdentifierCell)
 
-- (FDDBaseTableViewCell *)cellForIndexPath:(NSIndexPath *)indexPath cellClass:(Class)cellClass{
-    if ([cellClass isSubclassOfClass:FDDBaseTableViewCell.class]) {
+- (MSBaseTableViewCell *)cellForIndexPath:(NSIndexPath *)indexPath cellClass:(Class)cellClass{
+    if ([cellClass isSubclassOfClass:MSBaseTableViewCell.class]) {
         NSString *identifier = [NSString stringWithFormat:@"%@ID", NSStringFromClass(cellClass)];
-        FDDBaseTableViewCell *cell = [self dequeueReusableCellWithIdentifier:identifier];
+        MSBaseTableViewCell *cell = [self dequeueReusableCellWithIdentifier:identifier];
         if (!cell) {
             [self registerClass:cellClass forCellReuseIdentifier:identifier];
             cell = [self dequeueReusableCellWithIdentifier:identifier];
         }
         return cell;
     }
-    return [FDDBaseTableViewCell new];
+    return [MSBaseTableViewCell new];
 }
 
 @end
 
 
-@interface FDDTableViewConverter ()
+@interface MSTableViewConverter ()
 
 @property (nonatomic, weak) id tableViewCarrier;
 
@@ -41,7 +41,7 @@
 
 @end
 
-@implementation FDDTableViewConverter
+@implementation MSTableViewConverter
 
 - (void)dealloc{
     NSLog(@"%@ dealloc", NSStringFromClass(self.class));
@@ -125,7 +125,7 @@
 }
 
 - (id)converterFunction:(NSString *)func params:(NSArray *)params{
-    if (_converterType == FDDTableViewConverter_Response) {
+    if (_converterType == MSTableViewConverter_Response) {
         SEL selector = NSSelectorFromString(func);
         if ([_tableViewCarrier respondsToSelector:selector]) {
             return [self invocationWithSelector:selector params:params];
@@ -159,13 +159,13 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    FDDBaseTableViewCell *backCell = [self converterFunction:NSStringFromSelector(_cmd) params:@[tableView, indexPath]];
+    MSBaseTableViewCell *backCell = [self converterFunction:NSStringFromSelector(_cmd) params:@[tableView, indexPath]];
     if (backCell) {
         return backCell;
     }
     
-    FDDBaseCellModel *cellModel = _dataArr[indexPath.row];
-    FDDBaseTableViewCell *cell = [tableView cellForIndexPath:indexPath cellClass:cellModel.cellClass];
+    MSBaseCellModel *cellModel = _dataArr[indexPath.row];
+    MSBaseTableViewCell *cell = [tableView cellForIndexPath:indexPath cellClass:cellModel.cellClass];
     [cell setCellData:cellModel.cellData delegate:_tableViewCarrier];
     [cell setSeperatorLine:indexPath numberOfRowsInSection:_dataArr.count];
     return cell;
@@ -210,7 +210,7 @@
     if (backHeight > 0) {
         return backHeight;
     }
-    FDDBaseCellModel *cellModel = _dataArr[indexPath.row];
+    MSBaseCellModel *cellModel = _dataArr[indexPath.row];
     return cellModel.cellHeight;
 }
 
