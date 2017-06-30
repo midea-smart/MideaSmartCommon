@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "FDDBaseCellModel.h"
+#import "FDDBaseTableViewCell.h"
+#import "FDDBaseViewController.h"
+#import "FDDTableViewConverter.h"
 
 FOUNDATION_EXPORT double MideaSmartCommonVersionNumber;
 FOUNDATION_EXPORT const unsigned char MideaSmartCommonVersionString[];
