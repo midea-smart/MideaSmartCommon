@@ -23,6 +23,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		D9DA24DC1F0630BC00E21B5F /* HDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA24DB1F0630BC00E21B5F /* HDTableViewCell.m */; };
+		D9DA24DF1F06314400E21B5F /* MSViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA24DE1F06314400E21B5F /* MSViewController2.m */; };
 		E897EF6F9CA8A0671AFDBF40 /* Pods_MideaSmartCommon_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B905AB91FAF78BF2114CA334 /* Pods_MideaSmartCommon_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +69,10 @@
 		A8B0E2364BF54FA1DA30472F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B905AB91FAF78BF2114CA334 /* Pods_MideaSmartCommon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MideaSmartCommon_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE700D2D716A6E8F91D32514 /* Pods_MideaSmartCommon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MideaSmartCommon_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DA24DA1F0630BC00E21B5F /* HDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDTableViewCell.h; sourceTree = "<group>"; };
+		D9DA24DB1F0630BC00E21B5F /* HDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDTableViewCell.m; sourceTree = "<group>"; };
+		D9DA24DD1F06314400E21B5F /* MSViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSViewController2.h; sourceTree = "<group>"; };
+		D9DA24DE1F06314400E21B5F /* MSViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +143,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* MSViewController.h */,
 				6003F5A6195388D20070C39A /* MSViewController.m */,
+				D9DA24DD1F06314400E21B5F /* MSViewController2.h */,
+				D9DA24DE1F06314400E21B5F /* MSViewController2.m */,
+				D9DA24DA1F0630BC00E21B5F /* HDTableViewCell.h */,
+				D9DA24DB1F0630BC00E21B5F /* HDTableViewCell.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -394,9 +404,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9DA24DF1F06314400E21B5F /* MSViewController2.m in Sources */,
 				6003F59E195388D20070C39A /* MSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MSViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				D9DA24DC1F0630BC00E21B5F /* HDTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
